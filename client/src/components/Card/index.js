@@ -1,8 +1,16 @@
 import React from "react";
 
-function Card(/* YOUR CODE HERE */) {
+function Card({icon,title, children}
+) {
   return (
     // YOUR CODE HERE
+    <div className="card mt-5">
+      <div className="card-header">
+        <h1>
+          <i className={'fa fa-${icon}'} aria-hidden="true"/>
+          </h1>
+      </div>
+    </div>
   );
 }
 
